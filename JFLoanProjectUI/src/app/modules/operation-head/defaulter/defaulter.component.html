@@ -1,0 +1,18 @@
+<p>defaulter works!</p>
+<table class="centered"> 
+    <tr>
+      <th *ngFor="let col of columnnames">
+        {{col}}
+      </th>
+      <th> ACTION</th>
+    </tr>
+    <tr *ngFor="let char of columndata ">
+      <td *ngFor="let col of columnnames">
+        {{char[col]}}
+      </td>
+      <td>
+          <input type=button value="TAKE ACTION" (click)="takeaction(char)">
+      </td>
+    </tr>
+  </table>
+  
