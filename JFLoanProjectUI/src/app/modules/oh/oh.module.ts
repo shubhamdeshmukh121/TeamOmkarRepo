@@ -6,7 +6,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { componentFactoryName } from '@angular/compiler';
 
 const ohrouting:Routes=[{path:'ohdashboard',component:OhdashboardComponent},
+<<<<<<< Updated upstream
 {path:'agentdetails',component:AgentdetailsComponent}]
+=======
+{path:'agentdetails',component:AgentdetailsComponent},
+]
+>>>>>>> Stashed changes
 
 @NgModule({
   declarations: [OhdashboardComponent, AgentdetailsComponent],

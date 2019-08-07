@@ -3,12 +3,16 @@ import { CommonModule } from '@angular/common';
 import { OperationHeaddashboardComponent } from './operation-headdashboard/operation-headdashboard.component';
 import { RouterModule, Routes } from '@angular/router';
 
-const ohrouting:Routes=[{path:'operationheaddashboard',component:OperationHeaddashboardComponent},]
+import { DefaulterComponent } from './defaulter/defaulter.component';
+
+const ohrouting:Routes=[{path:'operationheaddashboard',component:OperationHeaddashboardComponent},
+{path:'defaulter',component:DefaulterComponent}]
+
 
 
 
 @NgModule({
-  declarations: [OperationHeaddashboardComponent],
+  declarations: [OperationHeaddashboardComponent, DefaulterComponent],
   exports:[ OperationHeaddashboardComponent],
   
   imports: [

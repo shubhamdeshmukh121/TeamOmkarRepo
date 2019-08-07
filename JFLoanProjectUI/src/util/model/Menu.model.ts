@@ -7,13 +7,14 @@ public static menu: Array<any>=[{
     ],
 
 operationhead :[
-        {label: 'DashBoard', key :'operationheaddashboard',icon: 'dashboard'}
-       
+        {label: 'DashBoard', key :'operationheaddashboard',icon: 'dashboard'},
+        {label:'Defaulter', key:'defaulter' ,icon:'dashboard'}
          ],
 
     operationexecutive :[
-        {label: 'DashBoard', key :'operationexecutivedashboard',icon: 'dashboard'}
-        
+        {label: 'DashBoard', key :'operationexecutivedashboard',icon: 'dashboard'},
+        {label:'Emi Calculator', key:'emicalculator',icon:'dashboard'},
+        {label:'GST Calculator', key:'gstcalculator',icon:'dashboard'}
          ],
     telecaller:[
             {label: 'DashBoard', key :'telecallerdashboard',icon: 'dashboard'}
